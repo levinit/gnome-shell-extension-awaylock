@@ -1,0 +1,218 @@
+# AwayLock - GNOME Shell extension
+# Copyright (C) 2026 levinit
+# This file is distributed under the MIT license.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awaylock\n"
+"POT-Creation-Date: 2026-06-23\n"
+"PO-Revision-Date: 2026-06-23\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension/prefs.js
+msgid "Detection"
+msgstr "检测"
+
+#: extension/prefs.js
+msgid ""
+"Configure the idle timeout and choose the Bluetooth device that represents "
+"your presence."
+msgstr ""
+
+#: extension/prefs.js
+msgid "Runtime Status"
+msgstr "运行状态"
+
+#: extension/prefs.js
+msgid "Live snapshot from the most recent AwayLock runtime writer."
+msgstr "来自最近 AwayLock 运行时的实时快照。"
+
+#: extension/prefs.js
+msgid "Enable proximity gating"
+msgstr "启用接近锁定"
+
+#: extension/prefs.js
+msgid "Toggle whether session locks automatically."
+msgstr "切换是否自动锁定会话。"
+
+#: extension/prefs.js
+msgid "Bluetooth Devices"
+msgstr "蓝牙设备"
+
+#: extension/prefs.js
+msgid "Select one or more trusted devices to monitor."
+msgstr "选择一个或多个受信任设备进行监控。"
+
+#: extension/prefs.js
+msgid "Reload Bluetooth devices"
+msgstr "刷新蓝牙设备"
+
+#: extension/prefs.js
+msgid "Trusted Bluetooth Devices"
+msgstr "受信任的蓝牙设备"
+
+#: extension/prefs.js
+msgid "None configured"
+msgstr "未配置"
+
+#: extension/prefs.js
+msgid "Add address (e.g. 00:11:22:33:44:55)"
+msgstr "添加地址（例如 00:11:22:33:44:55）"
+
+#: extension/prefs.js
+msgid "Add MAC address"
+msgstr "添加 MAC 地址"
+
+#: extension/prefs.js
+msgid "Idle timeout (seconds)"
+msgstr "空闲超时（秒）"
+
+#: extension/prefs.js
+msgid "Default: 300s"
+msgstr "默认：300秒"
+
+#: extension/prefs.js
+msgid "Lock delay after idle (seconds)"
+msgstr "空闲后锁定延迟（秒）"
+
+#: extension/prefs.js
+msgid "Default: 10s"
+msgstr "默认：10秒"
+
+#: extension/prefs.js
+msgid "Arrival RSSI threshold (dBm)"
+msgstr "到达 RSSI 阈值（dBm）"
+
+#: extension/prefs.js
+msgid "Default: -70 dBm"
+msgstr "默认：-70 dBm"
+
+#: extension/prefs.js
+msgid "Leave RSSI threshold (dBm)"
+msgstr "离开 RSSI 阈值（dBm）"
+
+#: extension/prefs.js
+msgid "Default: -78 dBm"
+msgstr "默认：-78 dBm"
+
+#: extension/prefs.js
+msgid "RSSI smoothing window"
+msgstr "RSSI 平滑窗口"
+
+#: extension/prefs.js
+msgid "Default: 5"
+msgstr "默认：5"
+
+#: extension/prefs.js
+msgid "Disconnect grace period (seconds)"
+msgstr "断开宽限期（秒）"
+
+#: extension/prefs.js
+msgid "Default: 12s"
+msgstr "默认：12秒"
+
+#: extension/prefs.js
+msgid "Sample interval (seconds)"
+msgstr "采样间隔（秒）"
+
+#: extension/prefs.js
+msgid "Default: 3s"
+msgstr "默认：3秒"
+
+#: extension/prefs.js
+msgid "Reset settings"
+msgstr "重置设置"
+
+#: extension/prefs.js
+msgid "Restore all options to default values."
+msgstr "将所有选项恢复为默认值。"
+
+#: extension/prefs.js
+msgid "Reset to Defaults"
+msgstr "恢复默认"
+
+#: extension/prefs.js
+msgid "Runtime"
+msgstr "运行时"
+
+#: extension/prefs.js
+msgid "No status snapshot yet"
+msgstr "尚无状态快照"
+
+#: extension/prefs.js
+msgid "Presence"
+msgstr "在场"
+
+#: extension/prefs.js
+msgid "Device"
+msgstr "设备"
+
+#: extension/prefs.js
+msgid "RSSI"
+msgstr "RSSI"
+
+#: extension/prefs.js
+msgid "Idle"
+msgstr "空闲"
+
+#: extension/prefs.js
+msgid "Last action"
+msgstr "上次操作"
+
+#: extension/prefs.js
+msgid "Updated"
+msgstr "已更新"
+
+#: extension/prefs.js
+msgid "Refresh runtime status"
+msgstr "刷新运行状态"
+
+#: extension/prefs.js
+msgid "Custom Device"
+msgstr "自定义设备"
+
+#: extension/prefs.js
+msgid "No Bluetooth devices found"
+msgstr "未发现蓝牙设备"
+
+#: extension/prefs.js
+msgid "Make sure BlueZ is running and devices are paired/visible."
+msgstr "请确保 BlueZ 正在运行且设备已配对/可见。"
+
+#: extension/prefs.js
+msgid "No Bluetooth devices were returned by BlueZ."
+msgstr "BlueZ 未返回任何蓝牙设备。"
+
+#: extension/prefs.js
+msgid "present"
+msgstr "在场"
+
+#: extension/prefs.js
+msgid "away"
+msgstr "离开"
+
+#: extension/prefs.js
+msgid "s"
+msgstr "秒"
+
+#: extension/prefs.js
+msgid "lock pending"
+msgstr "锁定待定"
+
+#: extension/prefs.js
+msgid " (disabled)"
+msgstr "（已禁用）"
+
+#: extension/prefs.js
+msgid "Custom"
+msgstr "自定义"
+
+#: extension/bluez.js
+msgid "awaylock: failed to list Bluetooth devices"
+msgstr "awaylock：列出蓝牙设备失败"

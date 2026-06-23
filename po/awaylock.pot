@@ -1,0 +1,219 @@
+# AwayLock - GNOME Shell extension
+# Copyright (C) 2026 levinit
+# This file is distributed under the MIT license.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awaylock 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-24 16:38+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../extension/prefs.js:19
+msgid "Detection"
+msgstr ""
+
+#: ../extension/prefs.js:20
+msgid ""
+"Configure the idle timeout and choose the Bluetooth device that represents "
+"your presence."
+msgstr ""
+
+#: ../extension/prefs.js:23
+msgid "Status"
+msgstr ""
+
+#: ../extension/prefs.js:24
+msgid "Live status from the extension runtime."
+msgstr ""
+
+#: ../extension/prefs.js:28
+msgid "Enable proximity gating"
+msgstr ""
+
+#: ../extension/prefs.js:29
+msgid "Toggle whether session locks automatically."
+msgstr ""
+
+#: ../extension/prefs.js:34
+msgid "Bluetooth Devices"
+msgstr ""
+
+#: ../extension/prefs.js:35 ../extension/prefs.js:332
+msgid "Select one or more trusted devices to monitor."
+msgstr ""
+
+#: ../extension/prefs.js:40
+msgid "Reload Bluetooth devices"
+msgstr ""
+
+#: ../extension/prefs.js:45
+msgid "Trusted Bluetooth Devices"
+msgstr ""
+
+#: ../extension/prefs.js:46 ../extension/prefs.js:215 ../extension/prefs.js:345
+msgid "None configured"
+msgstr ""
+
+#: ../extension/prefs.js:56
+msgid "Add address (e.g. 00:11:22:33:44:55)"
+msgstr ""
+
+#: ../extension/prefs.js:61
+msgid "Add MAC address"
+msgstr ""
+
+#: ../extension/prefs.js:92
+msgid "Idle timeout (seconds)"
+msgstr ""
+
+#: ../extension/prefs.js:93
+msgid "Default: 300s"
+msgstr ""
+
+#: ../extension/prefs.js:107
+msgid "Lock delay after idle (seconds)"
+msgstr ""
+
+#: ../extension/prefs.js:108
+msgid "Default: 10s"
+msgstr ""
+
+#: ../extension/prefs.js:122
+msgid "Arrival RSSI threshold (dBm)"
+msgstr ""
+
+#: ../extension/prefs.js:123
+msgid "Default: -70 dBm"
+msgstr ""
+
+#: ../extension/prefs.js:137
+msgid "Leave RSSI threshold (dBm)"
+msgstr ""
+
+#: ../extension/prefs.js:138
+msgid "Default: -78 dBm"
+msgstr ""
+
+#: ../extension/prefs.js:152
+msgid "RSSI smoothing window"
+msgstr ""
+
+#: ../extension/prefs.js:153
+msgid "Default: 5"
+msgstr ""
+
+#: ../extension/prefs.js:167
+msgid "Disconnect grace period (seconds)"
+msgstr ""
+
+#: ../extension/prefs.js:168
+msgid "Default: 12s"
+msgstr ""
+
+#: ../extension/prefs.js:182
+msgid "Sample interval (seconds)"
+msgstr ""
+
+#: ../extension/prefs.js:183
+msgid "Default: 3s"
+msgstr ""
+
+#: ../extension/prefs.js:197
+msgid "Reset settings"
+msgstr ""
+
+#: ../extension/prefs.js:198
+msgid "Restore all options to default values."
+msgstr ""
+
+#: ../extension/prefs.js:201
+msgid "Reset to Defaults"
+msgstr ""
+
+#: ../extension/prefs.js:242
+msgid "Presence"
+msgstr ""
+
+#: ../extension/prefs.js:243
+msgid "Device"
+msgstr ""
+
+#: ../extension/prefs.js:244
+msgid "RSSI"
+msgstr ""
+
+#: ../extension/prefs.js:245
+msgid "Idle"
+msgstr ""
+
+#: ../extension/prefs.js:246
+msgid "Last action"
+msgstr ""
+
+#: ../extension/prefs.js:247
+msgid "Updated"
+msgstr ""
+
+#: ../extension/prefs.js:277 ../extension/prefs.js:363
+msgid "Custom Device"
+msgstr ""
+
+#: ../extension/prefs.js:289
+msgid "No Bluetooth devices found"
+msgstr ""
+
+#: ../extension/prefs.js:290
+msgid "Make sure BlueZ is running and devices are paired/visible."
+msgstr ""
+
+#: ../extension/prefs.js:333
+msgid "No Bluetooth devices were returned by BlueZ."
+msgstr ""
+
+#: ../extension/prefs.js:353
+msgid "Custom"
+msgstr ""
+
+#: ../extension/prefs.js:402
+msgid "present"
+msgstr ""
+
+#: ../extension/prefs.js:402
+msgid "away"
+msgstr ""
+
+#: ../extension/prefs.js:409
+msgid "raw"
+msgstr ""
+
+#: ../extension/prefs.js:409 ../extension/prefs.js:411
+msgid "dBm"
+msgstr ""
+
+#: ../extension/prefs.js:411
+msgid "smoothed"
+msgstr ""
+
+#: ../extension/prefs.js:413
+msgid "samples"
+msgstr ""
+
+#: ../extension/prefs.js:414
+msgid "RSSI not available"
+msgstr ""
+
+#: ../extension/prefs.js:423
+msgid "s"
+msgstr ""
+
+#: ../extension/prefs.js:423
+msgid "lock pending"
+msgstr ""

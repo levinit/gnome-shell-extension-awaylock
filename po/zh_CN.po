@@ -1,0 +1,224 @@
+# AwayLock - GNOME Shell extension
+# Copyright (C) 2026 levinit
+# This file is distributed under the MIT license.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awaylock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-24 16:38+0800\n"
+"PO-Revision-Date: 2026-06-23\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../extension/prefs.js:19
+msgid "Detection"
+msgstr "检测"
+
+#: ../extension/prefs.js:20
+msgid ""
+"Configure the idle timeout and choose the Bluetooth device that represents "
+"your presence."
+msgstr ""
+
+#: ../extension/prefs.js:23
+msgid "Status"
+msgstr "状态"
+
+#: ../extension/prefs.js:24
+msgid "Live status from the extension runtime."
+msgstr "扩展的实时运行状态。"
+
+#: ../extension/prefs.js:28
+msgid "Enable proximity gating"
+msgstr "启用接近锁定"
+
+#: ../extension/prefs.js:29
+msgid "Toggle whether session locks automatically."
+msgstr "切换是否自动锁定会话。"
+
+#: ../extension/prefs.js:34
+msgid "Bluetooth Devices"
+msgstr "蓝牙设备"
+
+#: ../extension/prefs.js:35 ../extension/prefs.js:332
+msgid "Select one or more trusted devices to monitor."
+msgstr "选择一个或多个受信任设备进行监控。"
+
+#: ../extension/prefs.js:40
+msgid "Reload Bluetooth devices"
+msgstr "刷新蓝牙设备"
+
+#: ../extension/prefs.js:45
+msgid "Trusted Bluetooth Devices"
+msgstr "受信任的蓝牙设备"
+
+#: ../extension/prefs.js:46 ../extension/prefs.js:215 ../extension/prefs.js:345
+msgid "None configured"
+msgstr "未配置"
+
+#: ../extension/prefs.js:56
+msgid "Add address (e.g. 00:11:22:33:44:55)"
+msgstr "添加地址（例如 00:11:22:33:44:55）"
+
+#: ../extension/prefs.js:61
+msgid "Add MAC address"
+msgstr "添加 MAC 地址"
+
+#: ../extension/prefs.js:92
+msgid "Idle timeout (seconds)"
+msgstr "空闲超时（秒）"
+
+#: ../extension/prefs.js:93
+msgid "Default: 300s"
+msgstr "默认：300秒"
+
+#: ../extension/prefs.js:107
+msgid "Lock delay after idle (seconds)"
+msgstr "空闲后锁定延迟（秒）"
+
+#: ../extension/prefs.js:108
+msgid "Default: 10s"
+msgstr "默认：10秒"
+
+#: ../extension/prefs.js:122
+msgid "Arrival RSSI threshold (dBm)"
+msgstr "到达 RSSI 阈值（dBm）"
+
+#: ../extension/prefs.js:123
+msgid "Default: -70 dBm"
+msgstr "默认：-70 dBm"
+
+#: ../extension/prefs.js:137
+msgid "Leave RSSI threshold (dBm)"
+msgstr "离开 RSSI 阈值（dBm）"
+
+#: ../extension/prefs.js:138
+msgid "Default: -78 dBm"
+msgstr "默认：-78 dBm"
+
+#: ../extension/prefs.js:152
+msgid "RSSI smoothing window"
+msgstr "RSSI 平滑窗口"
+
+#: ../extension/prefs.js:153
+msgid "Default: 5"
+msgstr "默认：5"
+
+#: ../extension/prefs.js:167
+msgid "Disconnect grace period (seconds)"
+msgstr "断开宽限期（秒）"
+
+#: ../extension/prefs.js:168
+msgid "Default: 12s"
+msgstr "默认：12秒"
+
+#: ../extension/prefs.js:182
+msgid "Sample interval (seconds)"
+msgstr "采样间隔（秒）"
+
+#: ../extension/prefs.js:183
+msgid "Default: 3s"
+msgstr "默认：3秒"
+
+#: ../extension/prefs.js:197
+msgid "Reset settings"
+msgstr "重置设置"
+
+#: ../extension/prefs.js:198
+msgid "Restore all options to default values."
+msgstr "将所有选项恢复为默认值。"
+
+#: ../extension/prefs.js:201
+msgid "Reset to Defaults"
+msgstr "恢复默认"
+
+#: ../extension/prefs.js:242
+msgid "Presence"
+msgstr "在场"
+
+#: ../extension/prefs.js:243
+msgid "Device"
+msgstr "设备"
+
+#: ../extension/prefs.js:244
+msgid "RSSI"
+msgstr "RSSI"
+
+#: ../extension/prefs.js:245
+msgid "Idle"
+msgstr "空闲"
+
+#: ../extension/prefs.js:246
+msgid "Last action"
+msgstr "上次操作"
+
+#: ../extension/prefs.js:247
+msgid "Updated"
+msgstr "已更新"
+
+#: ../extension/prefs.js:277 ../extension/prefs.js:363
+msgid "Custom Device"
+msgstr "自定义设备"
+
+#: ../extension/prefs.js:289
+msgid "No Bluetooth devices found"
+msgstr "未发现蓝牙设备"
+
+#: ../extension/prefs.js:290
+msgid "Make sure BlueZ is running and devices are paired/visible."
+msgstr "请确保 BlueZ 正在运行且设备已配对/可见。"
+
+#: ../extension/prefs.js:333
+msgid "No Bluetooth devices were returned by BlueZ."
+msgstr "BlueZ 未返回任何蓝牙设备。"
+
+#: ../extension/prefs.js:353
+msgid "Custom"
+msgstr "自定义"
+
+#: ../extension/prefs.js:402
+msgid "present"
+msgstr "在场"
+
+#: ../extension/prefs.js:402
+msgid "away"
+msgstr "离开"
+
+#: ../extension/prefs.js:409
+msgid "raw"
+msgstr "原始"
+
+#: ../extension/prefs.js:409 ../extension/prefs.js:411
+msgid "dBm"
+msgstr "dBm"
+
+#: ../extension/prefs.js:411
+msgid "smoothed"
+msgstr "平滑"
+
+#: ../extension/prefs.js:413
+msgid "samples"
+msgstr "采样"
+
+#: ../extension/prefs.js:414
+msgid "RSSI not available"
+msgstr "RSSI 不可用"
+
+#: ../extension/prefs.js:423
+msgid "s"
+msgstr "秒"
+
+#: ../extension/prefs.js:423
+msgid "lock pending"
+msgstr "锁定待定"
+
+
+
+
+

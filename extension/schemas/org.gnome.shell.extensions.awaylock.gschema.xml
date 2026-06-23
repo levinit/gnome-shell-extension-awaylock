@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.awaylock" path="/org/gnome/shell/extensions/awaylock/">
+    <key name="enabled" type="b">
+      <default>true</default>
+      <summary>Enable locking</summary>
+      <description>Whether proximity locking is enabled.</description>
+    </key>
+    <key name="bluetooth-device-address" type="s">
+      <default>''</default>
+      <summary>Trusted Bluetooth device address</summary>
+      <description>Bluetooth MAC address used as the proximity token.</description>
+    </key>
+    <key name="idle-seconds" type="u">
+      <default>300</default>
+      <summary>Idle timeout</summary>
+      <description>Session idle time before proximity is evaluated.</description>
+    </key>
+    <key name="lock-delay-seconds" type="u">
+      <default>10</default>
+      <summary>Lock delay</summary>
+      <description>Extra delay before the session is locked after idle.</description>
+    </key>
+    <key name="arrive-rssi-threshold" type="i">
+      <default>-70</default>
+      <summary>Arrival RSSI threshold</summary>
+      <description>Minimum smoothed RSSI required to transition from away to present.</description>
+    </key>
+    <key name="leave-rssi-threshold" type="i">
+      <default>-78</default>
+      <summary>Leave RSSI threshold</summary>
+      <description>Minimum smoothed RSSI required to remain present once already nearby.</description>
+    </key>
+    <key name="sample-window" type="u">
+      <default>5</default>
+      <summary>RSSI smoothing window</summary>
+      <description>Number of RSSI samples used to compute the smoothed proximity signal.</description>
+    </key>
+    <key name="away-grace-seconds" type="u">
+      <default>12</default>
+      <summary>Disconnect grace period</summary>
+      <description>How long a disconnect or missing sample is tolerated before presence becomes away.</description>
+    </key>
+    <key name="sample-interval-seconds" type="u">
+      <default>3</default>
+      <summary>Sample interval</summary>
+      <description>Interval between proactive Bluetooth presence evaluations.</description>
+    </key>
+  </schema>
+</schemalist>

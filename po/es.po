@@ -1,0 +1,218 @@
+# AwayLock - GNOME Shell extension
+# Copyright (C) 2026 levinit
+# This file is distributed under the MIT license.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awaylock\n"
+"POT-Creation-Date: 2026-06-23\n"
+"PO-Revision-Date: 2026-06-23\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+
+#: extension/prefs.js
+msgid "Detection"
+msgstr ""
+
+#: extension/prefs.js
+msgid ""
+"Configure the idle timeout and choose the Bluetooth device that represents "
+"your presence."
+msgstr ""
+
+#: extension/prefs.js
+msgid "Runtime Status"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Live snapshot from the most recent AwayLock runtime writer."
+msgstr ""
+
+#: extension/prefs.js
+msgid "Enable proximity gating"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Toggle whether session locks automatically."
+msgstr ""
+
+#: extension/prefs.js
+msgid "Bluetooth Devices"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Select one or more trusted devices to monitor."
+msgstr ""
+
+#: extension/prefs.js
+msgid "Reload Bluetooth devices"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Trusted Bluetooth Devices"
+msgstr ""
+
+#: extension/prefs.js
+msgid "None configured"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Add address (e.g. 00:11:22:33:44:55)"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Add MAC address"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Idle timeout (seconds)"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Default: 300s"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Lock delay after idle (seconds)"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Default: 10s"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Arrival RSSI threshold (dBm)"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Default: -70 dBm"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Leave RSSI threshold (dBm)"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Default: -78 dBm"
+msgstr ""
+
+#: extension/prefs.js
+msgid "RSSI smoothing window"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Default: 5"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Disconnect grace period (seconds)"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Default: 12s"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Sample interval (seconds)"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Default: 3s"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Reset settings"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Restore all options to default values."
+msgstr ""
+
+#: extension/prefs.js
+msgid "Reset to Defaults"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Runtime"
+msgstr ""
+
+#: extension/prefs.js
+msgid "No status snapshot yet"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Presence"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Device"
+msgstr ""
+
+#: extension/prefs.js
+msgid "RSSI"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Idle"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Last action"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Updated"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Refresh runtime status"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Custom Device"
+msgstr ""
+
+#: extension/prefs.js
+msgid "No Bluetooth devices found"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Make sure BlueZ is running and devices are paired/visible."
+msgstr ""
+
+#: extension/prefs.js
+msgid "No Bluetooth devices were returned by BlueZ."
+msgstr ""
+
+#: extension/prefs.js
+msgid "present"
+msgstr ""
+
+#: extension/prefs.js
+msgid "away"
+msgstr ""
+
+#: extension/prefs.js
+msgid "s"
+msgstr ""
+
+#: extension/prefs.js
+msgid "lock pending"
+msgstr ""
+
+#: extension/prefs.js
+msgid " (disabled)"
+msgstr ""
+
+#: extension/prefs.js
+msgid "Custom"
+msgstr ""
+
+#: extension/bluez.js
+msgid "awaylock: failed to list Bluetooth devices"
+msgstr ""

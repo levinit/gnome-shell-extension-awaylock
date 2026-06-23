@@ -1,0 +1,22 @@
+Source: gnome-shell-extension-awaylock
+Section: gnome
+Priority: optional
+Maintainer: levinit <levinit@github.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://levinit.github.io/gnome-shell-extension-awaylock
+Rules-Requires-Root: no
+
+Package: gnome-shell-extension-awaylock
+Architecture: all
+Depends: gnome-shell (>= 48),
+         bluez,
+         ${misc:Depends}
+Recommends:
+Description: GNOME Shell extension for Bluetooth-based session locking
+ AwayLock locks the current GNOME session when the desktop is idle
+ and a trusted Bluetooth device is no longer nearby.
+ .
+ Supports multiple Bluetooth devices, dual RSSI thresholds with
+ hysteresis, signal smoothing, and a configurable disconnect grace
+ period.

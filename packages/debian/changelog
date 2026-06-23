@@ -1,0 +1,8 @@
+gnome-shell-extension-awaylock (1.0.0-1) unstable; urgency=low
+
+  * Initial release
+  * Idle detection with Bluetooth proximity gating
+  * Dual RSSI thresholds and signal smoothing
+  * GNOME Shell extension with Bluetooth proximity gating
+
+ -- levinit <levinit@github.com>  Mon, 23 Jun 2026 00:00:00 +0000

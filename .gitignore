@@ -1,0 +1,8 @@
+build/
+dist/
+po/locale/
+*.zip
+*.swp
+*.swo
+.DS_Store
+.directory

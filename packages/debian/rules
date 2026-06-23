@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	install -d debian/gnome-shell-extension-awaylock/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/schemas
+	install -m644 extension/*.js extension/metadata.json \
+		debian/gnome-shell-extension-awaylock/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/
+	install -m644 extension/schemas/*.xml \
+		debian/gnome-shell-extension-awaylock/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/schemas/
+	glib-compile-schemas debian/gnome-shell-extension-awaylock/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/schemas
+
+	# Compile and install locale data
+	for f in po/*.po; do \
+		lang=$$(basename "$$f" .po); \
+		install -d debian/gnome-shell-extension-awaylock/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/locale/$$lang/LC_MESSAGES; \
+		msgfmt "$$f" -o debian/gnome-shell-extension-awaylock/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/locale/$$lang/LC_MESSAGES/awaylock@levinit.github.io.mo; \
+	done
+
+override_dh_installchangelogs:
+	dh_installchangelogs CHANGELOG.md

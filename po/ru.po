@@ -1,0 +1,221 @@
+# AwayLock - GNOME Shell extension
+# Copyright (C) 2026 levinit
+# This file is distributed under the MIT license.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awaylock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-04 08:35+0800\n"
+"PO-Revision-Date: 2026-08-04\n"
+"Last-Translator: levinit <levinit@outlook.com>\n"
+"Language-Team: none\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: extension/prefs.js:19
+msgid "Detection"
+msgstr "Обнаружение"
+
+#: extension/prefs.js:20
+msgid ""
+"Configure the idle timeout and choose the Bluetooth device that represents "
+"your presence."
+msgstr "Настройте время бездействия и выберите устройство Bluetooth, представл"
+"яющее ваше присутствие."
+
+#: extension/prefs.js:23
+msgid "Status"
+msgstr "Статус"
+
+#: extension/prefs.js:24
+msgid "Live status from the extension runtime."
+msgstr "Живой статус из среды выполнения расширения."
+
+#: extension/prefs.js:28
+msgid "Enable proximity gating"
+msgstr "Включить блокировку по близости"
+
+#: extension/prefs.js:29
+msgid "Toggle whether session locks automatically."
+msgstr "Включает или отключает автоматическую блокировку сеанса."
+
+#: extension/prefs.js:34
+msgid "Bluetooth Devices"
+msgstr "Устройства Bluetooth"
+
+#: extension/prefs.js:35 extension/prefs.js:336
+msgid "Select one or more trusted devices to monitor."
+msgstr "Выберите одно или несколько доверенных устройств для мониторинга."
+
+#: extension/prefs.js:41
+msgid "Reload Bluetooth devices"
+msgstr "Обновить устройства Bluetooth"
+
+#: extension/prefs.js:46
+msgid "Trusted Bluetooth Devices"
+msgstr "Доверенные устройства Bluetooth"
+
+#: extension/prefs.js:47 extension/prefs.js:216 extension/prefs.js:349
+msgid "None configured"
+msgstr "Не настроено"
+
+#: extension/prefs.js:57
+msgid "Add address (e.g. 00:11:22:33:44:55)"
+msgstr "Добавить адрес (напр., 00:11:22:33:44:55)"
+
+#: extension/prefs.js:62
+msgid "Add MAC address"
+msgstr "Добавить MAC-адрес"
+
+#: extension/prefs.js:93
+msgid "Idle timeout (seconds)"
+msgstr "Время бездействия (секунды)"
+
+#: extension/prefs.js:94
+msgid "Default: 300s"
+msgstr "По умолчанию: 300с"
+
+#: extension/prefs.js:108
+msgid "Lock delay after idle (seconds)"
+msgstr "Задержка блокировки после бездействия (секунды)"
+
+#: extension/prefs.js:109
+msgid "Default: 10s"
+msgstr "По умолчанию: 10с"
+
+#: extension/prefs.js:123
+msgid "Arrival RSSI threshold (dBm)"
+msgstr "Порог RSSI прибытия (dBm)"
+
+#: extension/prefs.js:124
+msgid "Default: -70 dBm"
+msgstr "По умолчанию: -70 дБм"
+
+#: extension/prefs.js:138
+msgid "Leave RSSI threshold (dBm)"
+msgstr "Порог RSSI ухода (dBm)"
+
+#: extension/prefs.js:139
+msgid "Default: -78 dBm"
+msgstr "По умолчанию: -78 дБм"
+
+#: extension/prefs.js:153
+msgid "RSSI smoothing window"
+msgstr "Окно сглаживания RSSI"
+
+#: extension/prefs.js:154
+msgid "Default: 5"
+msgstr "По умолчанию: 5"
+
+#: extension/prefs.js:168
+msgid "Disconnect grace period (seconds)"
+msgstr "Льготный период отключения (секунды)"
+
+#: extension/prefs.js:169
+msgid "Default: 12s"
+msgstr "По умолчанию: 12с"
+
+#: extension/prefs.js:183
+msgid "Sample interval (seconds)"
+msgstr "Интервал выборки (секунды)"
+
+#: extension/prefs.js:184
+msgid "Default: 3s"
+msgstr "По умолчанию: 3с"
+
+#: extension/prefs.js:198
+msgid "Reset settings"
+msgstr "Сбросить настройки"
+
+#: extension/prefs.js:199
+msgid "Restore all options to default values."
+msgstr "Восстановить все параметры по умолчанию."
+
+#: extension/prefs.js:202
+msgid "Reset to Defaults"
+msgstr "Сбросить к значениям по умолчанию"
+
+#: extension/prefs.js:243
+msgid "Presence"
+msgstr "Присутствие"
+
+#: extension/prefs.js:244
+msgid "Device"
+msgstr "Устройство"
+
+#: extension/prefs.js:245
+msgid "RSSI"
+msgstr "RSSI"
+
+#: extension/prefs.js:246
+msgid "Idle"
+msgstr "Бездействие"
+
+#: extension/prefs.js:247
+msgid "Last action"
+msgstr "Последнее действие"
+
+#: extension/prefs.js:248
+msgid "Updated"
+msgstr "Обновлено"
+
+#: extension/prefs.js:278
+msgid "Custom Device"
+msgstr "Пользовательское устройство"
+
+#: extension/prefs.js:288
+msgid "No Bluetooth devices found"
+msgstr "Устройства Bluetooth не найдены"
+
+#: extension/prefs.js:289
+msgid "Make sure BlueZ is running and devices are paired/visible."
+msgstr "Убедитесь, что BlueZ запущен, а устройства сопряжены/видны."
+
+#: extension/prefs.js:337
+msgid "No Bluetooth devices were returned by BlueZ."
+msgstr "BlueZ не вернул ни одного устройства Bluetooth."
+
+#: extension/prefs.js:357
+msgid "Custom"
+msgstr "Пользовательский"
+
+#: extension/prefs.js:388
+msgid "present"
+msgstr "присутствует"
+
+#: extension/prefs.js:388
+msgid "away"
+msgstr "отсутствует"
+
+#: extension/prefs.js:395
+msgid "raw"
+msgstr "сырой"
+
+#: extension/prefs.js:395 extension/prefs.js:397
+msgid "dBm"
+msgstr "дБм"
+
+#: extension/prefs.js:397
+msgid "smoothed"
+msgstr "сглаженный"
+
+#: extension/prefs.js:399
+msgid "samples"
+msgstr "выборки"
+
+#: extension/prefs.js:400
+msgid "RSSI not available"
+msgstr "RSSI недоступен"
+
+#: extension/prefs.js:409
+msgid "s"
+msgstr "с"
+
+#: extension/prefs.js:409
+msgid "lock pending"
+msgstr "блокировка ожидает"

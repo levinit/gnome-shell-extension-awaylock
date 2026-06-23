@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AwayLock — GNOME Shell extension that locks the session when you walk away.">
+  <title>AwayLock · Bluetooth proximity lock for GNOME</title>
+  <style>
+    :root {
+      --bg: #0f0d1a;
+      --surface: #1a1728;
+      --accent: #6db8f0;
+      --accent2: #4da0f0;
+      --text: #e4e0f0;
+      --muted: #9a94b0;
+      --border: #2a2540;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+      line-height: 1.7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 880px;
+      width: 100%;
+      padding: 0 24px;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 0 40px;
+      text-align: center;
+    }
+
+    header img {
+      width: 96px;
+      height: 96px;
+      border-radius: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 8px 32px rgba(77, 160, 240, 0.15);
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: var(--muted);
+      max-width: 520px;
+      margin-top: 12px;
+    }
+
+    /* Section */
+    section {
+      padding: 48px 0;
+      width: 100%;
+    }
+
+    section h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    section p,
+    section li {
+      color: var(--muted);
+    }
+
+    /* Cards */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 8px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+    }
+
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+    }
+
+    /* Code */
+    code,
+    .code-block {
+      font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", monospace;
+      font-size: 0.85rem;
+    }
+
+    .code-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px 20px;
+      overflow-x: auto;
+      margin: 16px 0;
+      color: var(--text);
+    }
+
+
+    .card p {
+      font-size: 0.75em;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* Button */
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #0f0d1a;
+      font-weight: 600;
+      padding: 12px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(77, 160, 240, 0.3);
+    }
+
+    /* Footer */
+    footer {
+      padding: 40px 0;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      width: 100%;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      header img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="icon.svg" alt="AwayLock icon">
+      <h1>AwayLock</h1>
+      <p>Automatic session lock for GNOME powered by&nbsp;Bluetooth&nbsp;proximity.</p>
+      <a href="https://github.com/levinit/gnome-shell-extension-awaylock"
+        style="display:inline-block;margin-top:8px;color:wheat;text-decoration:wavy;">Git Repository
+      </a>
+    </header>
+
+    <section>
+      <h2>How it works</h2>
+      <p>AwayLock monitors two signals — your desktop idle time and the Bluetooth RSSI of a trusted device. When you
+        step away and the Bluetooth signal drops below a threshold, the session locks automatically. No phone app
+        needed, no cloud, no telemetry.</p>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Multi-device support</h3>
+          <p>Any trusted device nearby keeps the session unlocked.</p>
+        </div>
+        <div class="card">
+          <h3>Grace period</h3>
+          <p>Temporary disconnects don't trigger an immediate lock.</p>
+        </div>
+        <div class="card">
+          <h3>Dual RSSI thresholds</h3>
+          <p>Hysteresis prevents constant toggling at the boundary.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Installation</h2>
+      <div class="code-block">
+        <span style="color:var(--muted)"># Install extension locally</span><br>
+        git clone https://github.com/levinit/gnome-shell-extension-awaylock.git<br>
+        cd gnome-shell-extension-awaylock<br>
+        make install
+      </div>
+      <p style="margin-top:12px">
+        <a class="btn" href="https://github.com/levinit/gnome-shell-extension-awaylock/releases">Download latest
+          release</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Architecture</h2>
+      <p>The extension runs inside GNOME Shell, monitors Mutter&rsquo;s idle time and BlueZ device state,
+        and locks the session via <code>loginctl</code> when you step away.</p>
+    </section>
+
+    <section>
+      <h2>Preferences</h2>
+      <p>The extension ships a full preferences UI (<code>extension/prefs.js</code>) built with GTK and libadwaita.
+        Configure an on/off toggle, select multiple trusted Bluetooth devices or manually enter MAC addresses,
+        set idle timeout and lock delay, adjust dual RSSI thresholds, smoothing window, sampling interval
+        and disconnect grace period — plus a live runtime status panel and a reset-to-defaults button.</p>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <a href="https://github.com/levinit/gnome-shell-extension-awaylock">GitHub</a> &nbsp;·&nbsp; MIT License
+      &nbsp;·&nbsp; <a href="https://github.com/levinit/gnome-shell-extension-awaylock/issues">Report issue</a>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+  "uuid": "awaylock@levinit.github.io",
+  "name": "AwayLock",
+  "description": "GNOME automatic session lock extension with Bluetooth proximity gating.",
+  "version": "1.0.0",
+  "url": "https://github.com/levinit/gnome-shell-extension-awaylock",
+  "settings-schema": "org.gnome.shell.extensions.awaylock",
+  "shell-version": [
+    "48",
+    "49",
+    "50"
+  ]
+}

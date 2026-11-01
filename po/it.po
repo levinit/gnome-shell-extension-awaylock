@@ -1,0 +1,221 @@
+# AwayLock - GNOME Shell extension
+# Copyright (C) 2026 levinit
+# This file is distributed under the MIT license.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awaylock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-04 08:35+0800\n"
+"PO-Revision-Date: 2026-08-04\n"
+"Last-Translator: levinit <levinit@outlook.com>\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension/prefs.js:19
+msgid "Detection"
+msgstr "Rilevamento"
+
+#: extension/prefs.js:20
+msgid ""
+"Configure the idle timeout and choose the Bluetooth device that represents "
+"your presence."
+msgstr "Configura il timeout di inattività e scegli il dispositivo Bluetooth c"
+"he rappresenta la tua presenza."
+
+#: extension/prefs.js:23
+msgid "Status"
+msgstr "Stato"
+
+#: extension/prefs.js:24
+msgid "Live status from the extension runtime."
+msgstr "Stato in tempo reale dal runtime dell'estensione."
+
+#: extension/prefs.js:28
+msgid "Enable proximity gating"
+msgstr "Attiva blocco di prossimità"
+
+#: extension/prefs.js:29
+msgid "Toggle whether session locks automatically."
+msgstr "Attiva o disattiva il blocco automatico della sessione."
+
+#: extension/prefs.js:34
+msgid "Bluetooth Devices"
+msgstr "Dispositivi Bluetooth"
+
+#: extension/prefs.js:35 extension/prefs.js:336
+msgid "Select one or more trusted devices to monitor."
+msgstr "Seleziona uno o più dispositivi attendibili da monitorare."
+
+#: extension/prefs.js:41
+msgid "Reload Bluetooth devices"
+msgstr "Ricarica dispositivi Bluetooth"
+
+#: extension/prefs.js:46
+msgid "Trusted Bluetooth Devices"
+msgstr "Dispositivi Bluetooth attendibili"
+
+#: extension/prefs.js:47 extension/prefs.js:216 extension/prefs.js:349
+msgid "None configured"
+msgstr "Nessuno configurato"
+
+#: extension/prefs.js:57
+msgid "Add address (e.g. 00:11:22:33:44:55)"
+msgstr "Aggiungi indirizzo (es. 00:11:22:33:44:55)"
+
+#: extension/prefs.js:62
+msgid "Add MAC address"
+msgstr "Aggiungi indirizzo MAC"
+
+#: extension/prefs.js:93
+msgid "Idle timeout (seconds)"
+msgstr "Timeout di inattività (secondi)"
+
+#: extension/prefs.js:94
+msgid "Default: 300s"
+msgstr "Predefinito: 300s"
+
+#: extension/prefs.js:108
+msgid "Lock delay after idle (seconds)"
+msgstr "Ritardo di blocco dopo inattività (secondi)"
+
+#: extension/prefs.js:109
+msgid "Default: 10s"
+msgstr "Predefinito: 10s"
+
+#: extension/prefs.js:123
+msgid "Arrival RSSI threshold (dBm)"
+msgstr "Soglia RSSI di arrivo (dBm)"
+
+#: extension/prefs.js:124
+msgid "Default: -70 dBm"
+msgstr "Predefinito: -70 dBm"
+
+#: extension/prefs.js:138
+msgid "Leave RSSI threshold (dBm)"
+msgstr "Soglia RSSI di partenza (dBm)"
+
+#: extension/prefs.js:139
+msgid "Default: -78 dBm"
+msgstr "Predefinito: -78 dBm"
+
+#: extension/prefs.js:153
+msgid "RSSI smoothing window"
+msgstr "Finestra di smoothing RSSI"
+
+#: extension/prefs.js:154
+msgid "Default: 5"
+msgstr "Predefinito: 5"
+
+#: extension/prefs.js:168
+msgid "Disconnect grace period (seconds)"
+msgstr "Periodo di grazia di disconnessione (secondi)"
+
+#: extension/prefs.js:169
+msgid "Default: 12s"
+msgstr "Predefinito: 12s"
+
+#: extension/prefs.js:183
+msgid "Sample interval (seconds)"
+msgstr "Intervallo di campionamento (secondi)"
+
+#: extension/prefs.js:184
+msgid "Default: 3s"
+msgstr "Predefinito: 3s"
+
+#: extension/prefs.js:198
+msgid "Reset settings"
+msgstr "Ripristina impostazioni"
+
+#: extension/prefs.js:199
+msgid "Restore all options to default values."
+msgstr "Ripristina tutte le opzioni ai valori predefiniti."
+
+#: extension/prefs.js:202
+msgid "Reset to Defaults"
+msgstr "Ripristina predefiniti"
+
+#: extension/prefs.js:243
+msgid "Presence"
+msgstr "Presenza"
+
+#: extension/prefs.js:244
+msgid "Device"
+msgstr "Dispositivo"
+
+#: extension/prefs.js:245
+msgid "RSSI"
+msgstr "RSSI"
+
+#: extension/prefs.js:246
+msgid "Idle"
+msgstr "Inattivo"
+
+#: extension/prefs.js:247
+msgid "Last action"
+msgstr "Ultima azione"
+
+#: extension/prefs.js:248
+msgid "Updated"
+msgstr "Aggiornato"
+
+#: extension/prefs.js:278
+msgid "Custom Device"
+msgstr "Dispositivo personalizzato"
+
+#: extension/prefs.js:288
+msgid "No Bluetooth devices found"
+msgstr "Nessun dispositivo Bluetooth trovato"
+
+#: extension/prefs.js:289
+msgid "Make sure BlueZ is running and devices are paired/visible."
+msgstr "Assicurati che BlueZ sia in esecuzione e che i dispositivi siano accop"
+"piati/visibili."
+
+#: extension/prefs.js:337
+msgid "No Bluetooth devices were returned by BlueZ."
+msgstr "BlueZ non ha restituito alcun dispositivo Bluetooth."
+
+#: extension/prefs.js:357
+msgid "Custom"
+msgstr "Personalizzato"
+
+#: extension/prefs.js:388
+msgid "present"
+msgstr "presente"
+
+#: extension/prefs.js:388
+msgid "away"
+msgstr "assente"
+
+#: extension/prefs.js:395
+msgid "raw"
+msgstr "grezzo"
+
+#: extension/prefs.js:395 extension/prefs.js:397
+msgid "dBm"
+msgstr "dBm"
+
+#: extension/prefs.js:397
+msgid "smoothed"
+msgstr "smussato"
+
+#: extension/prefs.js:399
+msgid "samples"
+msgstr "campioni"
+
+#: extension/prefs.js:400
+msgid "RSSI not available"
+msgstr "RSSI non disponibile"
+
+#: extension/prefs.js:409
+msgid "s"
+msgstr "s"
+
+#: extension/prefs.js:409
+msgid "lock pending"
+msgstr "blocco in attesa"

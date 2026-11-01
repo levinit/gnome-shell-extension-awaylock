@@ -1,0 +1,33 @@
+# Maintainer: levinit <levinit@github.com>
+
+pkgname=gnome-shell-extension-awaylock
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="GNOME Shell extension that locks the session when idle and a trusted Bluetooth device is away"
+arch=(any)
+url="https://github.com/levinit/gnome-shell-extension-awaylock"
+license=(MIT)
+depends=('gnome-shell>=48' 'bluez')
+makedepends=(gettext)
+conflicts=()
+source=("$pkgname-$pkgver.tar.gz::https://github.com/levinit/gnome-shell-extension-awaylock/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('SKIP')
+
+package() {
+  cd "$srcdir/gnome-shell-extension-awaylock-$pkgver"
+
+  install -d "$pkgdir/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/schemas"
+  install -m644 extension/*.js extension/metadata.json \
+    "$pkgdir/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/"
+  install -m644 extension/schemas/*.xml \
+    "$pkgdir/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/schemas/"
+  glib-compile-schemas "$pkgdir/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/schemas"
+
+  # Compile and install locale data
+  cd po
+  for f in *.po; do
+    lang="${f%.po}"
+    install -d "$pkgdir/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/locale/$lang/LC_MESSAGES"
+    msgfmt "$f" -o "$pkgdir/usr/share/gnome-shell/extensions/awaylock@levinit.github.io/locale/$lang/LC_MESSAGES/awaylock@levinit.github.io.mo"
+  done
+}

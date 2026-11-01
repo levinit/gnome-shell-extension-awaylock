@@ -1,0 +1,219 @@
+# AwayLock - GNOME Shell extension
+# Copyright (C) 2026 levinit
+# This file is distributed under the MIT license.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awaylock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-04 08:35+0800\n"
+"PO-Revision-Date: 2026-08-04\n"
+"Last-Translator: levinit <levinit@outlook.com>\n"
+"Language-Team: none\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension/prefs.js:19
+msgid "Detection"
+msgstr "الكشف"
+
+#: extension/prefs.js:20
+msgid ""
+"Configure the idle timeout and choose the Bluetooth device that represents "
+"your presence."
+msgstr "قم بتكوين مهلة الخمول واختر جهاز Bluetooth الذي يمثل وجودك."
+
+#: extension/prefs.js:23
+msgid "Status"
+msgstr "الحالة"
+
+#: extension/prefs.js:24
+msgid "Live status from the extension runtime."
+msgstr "الحالة المباشرة من وقت تشغيل الامتداد."
+
+#: extension/prefs.js:28
+msgid "Enable proximity gating"
+msgstr "تفعيل قفل القرب"
+
+#: extension/prefs.js:29
+msgid "Toggle whether session locks automatically."
+msgstr "يبدّل القفل التلقائي للجلسة."
+
+#: extension/prefs.js:34
+msgid "Bluetooth Devices"
+msgstr "أجهزة Bluetooth"
+
+#: extension/prefs.js:35 extension/prefs.js:336
+msgid "Select one or more trusted devices to monitor."
+msgstr "حدد جهازًا أو أكثر موثوقًا لمراقبته."
+
+#: extension/prefs.js:41
+msgid "Reload Bluetooth devices"
+msgstr "إعادة تحميل أجهزة Bluetooth"
+
+#: extension/prefs.js:46
+msgid "Trusted Bluetooth Devices"
+msgstr "أجهزة Bluetooth الموثوقة"
+
+#: extension/prefs.js:47 extension/prefs.js:216 extension/prefs.js:349
+msgid "None configured"
+msgstr "لم يتم تكوين أي جهاز"
+
+#: extension/prefs.js:57
+msgid "Add address (e.g. 00:11:22:33:44:55)"
+msgstr "إضافة عنوان (مثال: 00:11:22:33:44:55)"
+
+#: extension/prefs.js:62
+msgid "Add MAC address"
+msgstr "إضافة عنوان MAC"
+
+#: extension/prefs.js:93
+msgid "Idle timeout (seconds)"
+msgstr "مهلة الخمول (ثوانٍ)"
+
+#: extension/prefs.js:94
+msgid "Default: 300s"
+msgstr "الافتراضي: 300s"
+
+#: extension/prefs.js:108
+msgid "Lock delay after idle (seconds)"
+msgstr "تأخير القفل بعد الخمول (ثوانٍ)"
+
+#: extension/prefs.js:109
+msgid "Default: 10s"
+msgstr "الافتراضي: 10s"
+
+#: extension/prefs.js:123
+msgid "Arrival RSSI threshold (dBm)"
+msgstr "عتبة RSSI للوصول (dBm)"
+
+#: extension/prefs.js:124
+msgid "Default: -70 dBm"
+msgstr "الافتراضي: -70 dBm"
+
+#: extension/prefs.js:138
+msgid "Leave RSSI threshold (dBm)"
+msgstr "عتبة RSSI للمغادرة (dBm)"
+
+#: extension/prefs.js:139
+msgid "Default: -78 dBm"
+msgstr "الافتراضي: -78 dBm"
+
+#: extension/prefs.js:153
+msgid "RSSI smoothing window"
+msgstr "نافذة تنعيم RSSI"
+
+#: extension/prefs.js:154
+msgid "Default: 5"
+msgstr "الافتراضي: 5"
+
+#: extension/prefs.js:168
+msgid "Disconnect grace period (seconds)"
+msgstr "فترة السماح لانقطاع الاتصال (ثوانٍ)"
+
+#: extension/prefs.js:169
+msgid "Default: 12s"
+msgstr "الافتراضي: 12s"
+
+#: extension/prefs.js:183
+msgid "Sample interval (seconds)"
+msgstr "فاصل أخذ العينات (ثوانٍ)"
+
+#: extension/prefs.js:184
+msgid "Default: 3s"
+msgstr "الافتراضي: 3s"
+
+#: extension/prefs.js:198
+msgid "Reset settings"
+msgstr "إعادة تعيين الإعدادات"
+
+#: extension/prefs.js:199
+msgid "Restore all options to default values."
+msgstr "استعادة جميع الخيارات إلى القيم الافتراضية."
+
+#: extension/prefs.js:202
+msgid "Reset to Defaults"
+msgstr "إعادة التعيين إلى الافتراضي"
+
+#: extension/prefs.js:243
+msgid "Presence"
+msgstr "الوجود"
+
+#: extension/prefs.js:244
+msgid "Device"
+msgstr "الجهاز"
+
+#: extension/prefs.js:245
+msgid "RSSI"
+msgstr "RSSI"
+
+#: extension/prefs.js:246
+msgid "Idle"
+msgstr "خامل"
+
+#: extension/prefs.js:247
+msgid "Last action"
+msgstr "آخر إجراء"
+
+#: extension/prefs.js:248
+msgid "Updated"
+msgstr "تم التحديث"
+
+#: extension/prefs.js:278
+msgid "Custom Device"
+msgstr "جهاز مخصص"
+
+#: extension/prefs.js:288
+msgid "No Bluetooth devices found"
+msgstr "لم يتم العثور على أجهزة Bluetooth"
+
+#: extension/prefs.js:289
+msgid "Make sure BlueZ is running and devices are paired/visible."
+msgstr "تأكد من تشغيل BlueZ وأن الأجهزة مقترنة/مرئية."
+
+#: extension/prefs.js:337
+msgid "No Bluetooth devices were returned by BlueZ."
+msgstr "لم يُرجع BlueZ أي أجهزة Bluetooth."
+
+#: extension/prefs.js:357
+msgid "Custom"
+msgstr "مخصص"
+
+#: extension/prefs.js:388
+msgid "present"
+msgstr "حاضر"
+
+#: extension/prefs.js:388
+msgid "away"
+msgstr "غائب"
+
+#: extension/prefs.js:395
+msgid "raw"
+msgstr "خام"
+
+#: extension/prefs.js:395 extension/prefs.js:397
+msgid "dBm"
+msgstr "dBm"
+
+#: extension/prefs.js:397
+msgid "smoothed"
+msgstr "مُنعَّم"
+
+#: extension/prefs.js:399
+msgid "samples"
+msgstr "عينات"
+
+#: extension/prefs.js:400
+msgid "RSSI not available"
+msgstr "RSSI غير متاح"
+
+#: extension/prefs.js:409
+msgid "s"
+msgstr "ثانية"
+
+#: extension/prefs.js:409
+msgid "lock pending"
+msgstr "قفل معلّق"

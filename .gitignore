@@ -1,0 +1,10 @@
+build/
+dist/
+po/locale/
+*.zip
+*.swp
+*.swo
+.DS_Store
+.directory
+extension/schemas/gschemas.compiled
+*.po~

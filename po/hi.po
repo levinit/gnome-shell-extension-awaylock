@@ -1,0 +1,220 @@
+# AwayLock - GNOME Shell extension
+# Copyright (C) 2026 levinit
+# This file is distributed under the MIT license.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awaylock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-04 08:35+0800\n"
+"PO-Revision-Date: 2026-08-04\n"
+"Last-Translator: levinit <levinit@outlook.com>\n"
+"Language-Team: none\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension/prefs.js:19
+msgid "Detection"
+msgstr "पहचान"
+
+#: extension/prefs.js:20
+msgid ""
+"Configure the idle timeout and choose the Bluetooth device that represents "
+"your presence."
+msgstr "निष्क्रिय समय सीमा कॉन्फ़िगर करें और वह Bluetooth डिवाइस चुनें जो आपकी"
+" उपस्थिति दर्शाता है।"
+
+#: extension/prefs.js:23
+msgid "Status"
+msgstr "स्थिति"
+
+#: extension/prefs.js:24
+msgid "Live status from the extension runtime."
+msgstr "एक्सटेंशन रनटाइम से लाइव स्थिति।"
+
+#: extension/prefs.js:28
+msgid "Enable proximity gating"
+msgstr "निकटता लॉक सक्षम करें"
+
+#: extension/prefs.js:29
+msgid "Toggle whether session locks automatically."
+msgstr "सेशन स्वचालित रूप से लॉक होगा या नहीं, इसे टॉगल करता है।"
+
+#: extension/prefs.js:34
+msgid "Bluetooth Devices"
+msgstr "Bluetooth डिवाइस"
+
+#: extension/prefs.js:35 extension/prefs.js:336
+msgid "Select one or more trusted devices to monitor."
+msgstr "निगरानी के लिए एक या अधिक विश्वसनीय डिवाइस चुनें।"
+
+#: extension/prefs.js:41
+msgid "Reload Bluetooth devices"
+msgstr "Bluetooth डिवाइस फिर से लोड करें"
+
+#: extension/prefs.js:46
+msgid "Trusted Bluetooth Devices"
+msgstr "विश्वसनीय Bluetooth डिवाइस"
+
+#: extension/prefs.js:47 extension/prefs.js:216 extension/prefs.js:349
+msgid "None configured"
+msgstr "कोई कॉन्फ़िगर नहीं"
+
+#: extension/prefs.js:57
+msgid "Add address (e.g. 00:11:22:33:44:55)"
+msgstr "पता जोड़ें (जैसे: 00:11:22:33:44:55)"
+
+#: extension/prefs.js:62
+msgid "Add MAC address"
+msgstr "MAC पता जोड़ें"
+
+#: extension/prefs.js:93
+msgid "Idle timeout (seconds)"
+msgstr "निष्क्रिय समय सीमा (सेकंड)"
+
+#: extension/prefs.js:94
+msgid "Default: 300s"
+msgstr "डिफ़ॉल्ट: 300s"
+
+#: extension/prefs.js:108
+msgid "Lock delay after idle (seconds)"
+msgstr "निष्क्रियता के बाद लॉक विलंब (सेकंड)"
+
+#: extension/prefs.js:109
+msgid "Default: 10s"
+msgstr "डिफ़ॉल्ट: 10s"
+
+#: extension/prefs.js:123
+msgid "Arrival RSSI threshold (dBm)"
+msgstr "आगमन RSSI सीमा (dBm)"
+
+#: extension/prefs.js:124
+msgid "Default: -70 dBm"
+msgstr "डिफ़ॉल्ट: -70 dBm"
+
+#: extension/prefs.js:138
+msgid "Leave RSSI threshold (dBm)"
+msgstr "प्रस्थान RSSI सीमा (dBm)"
+
+#: extension/prefs.js:139
+msgid "Default: -78 dBm"
+msgstr "डिफ़ॉल्ट: -78 dBm"
+
+#: extension/prefs.js:153
+msgid "RSSI smoothing window"
+msgstr "RSSI स्मूथिंग विंडो"
+
+#: extension/prefs.js:154
+msgid "Default: 5"
+msgstr "डिफ़ॉल्ट: 5"
+
+#: extension/prefs.js:168
+msgid "Disconnect grace period (seconds)"
+msgstr "डिस्कनेक्ट अनुग्रह अवधि (सेकंड)"
+
+#: extension/prefs.js:169
+msgid "Default: 12s"
+msgstr "डिफ़ॉल्ट: 12s"
+
+#: extension/prefs.js:183
+msgid "Sample interval (seconds)"
+msgstr "नमूना अंतराल (सेकंड)"
+
+#: extension/prefs.js:184
+msgid "Default: 3s"
+msgstr "डिफ़ॉल्ट: 3s"
+
+#: extension/prefs.js:198
+msgid "Reset settings"
+msgstr "सेटिंग्स रीसेट करें"
+
+#: extension/prefs.js:199
+msgid "Restore all options to default values."
+msgstr "सभी विकल्पों को डिफ़ॉल्ट मानों पर पुनर्स्थापित करें।"
+
+#: extension/prefs.js:202
+msgid "Reset to Defaults"
+msgstr "डिफ़ॉल्ट पर रीसेट करें"
+
+#: extension/prefs.js:243
+msgid "Presence"
+msgstr "उपस्थिति"
+
+#: extension/prefs.js:244
+msgid "Device"
+msgstr "डिवाइस"
+
+#: extension/prefs.js:245
+msgid "RSSI"
+msgstr "RSSI"
+
+#: extension/prefs.js:246
+msgid "Idle"
+msgstr "निष्क्रिय"
+
+#: extension/prefs.js:247
+msgid "Last action"
+msgstr "अंतिम क्रिया"
+
+#: extension/prefs.js:248
+msgid "Updated"
+msgstr "अपडेट किया गया"
+
+#: extension/prefs.js:278
+msgid "Custom Device"
+msgstr "कस्टम डिवाइस"
+
+#: extension/prefs.js:288
+msgid "No Bluetooth devices found"
+msgstr "कोई Bluetooth डिवाइस नहीं मिला"
+
+#: extension/prefs.js:289
+msgid "Make sure BlueZ is running and devices are paired/visible."
+msgstr "सुनिश्चित करें कि BlueZ चल रहा है और डिवाइस पेयर/दृश्यमान हैं।"
+
+#: extension/prefs.js:337
+msgid "No Bluetooth devices were returned by BlueZ."
+msgstr "BlueZ ने कोई Bluetooth डिवाइस वापस नहीं किया।"
+
+#: extension/prefs.js:357
+msgid "Custom"
+msgstr "कस्टम"
+
+#: extension/prefs.js:388
+msgid "present"
+msgstr "उपस्थित"
+
+#: extension/prefs.js:388
+msgid "away"
+msgstr "अनुपस्थित"
+
+#: extension/prefs.js:395
+msgid "raw"
+msgstr "कच्चा"
+
+#: extension/prefs.js:395 extension/prefs.js:397
+msgid "dBm"
+msgstr "dBm"
+
+#: extension/prefs.js:397
+msgid "smoothed"
+msgstr "स्मूथ"
+
+#: extension/prefs.js:399
+msgid "samples"
+msgstr "नमूने"
+
+#: extension/prefs.js:400
+msgid "RSSI not available"
+msgstr "RSSI उपलब्ध नहीं है"
+
+#: extension/prefs.js:409
+msgid "s"
+msgstr "सेकंड"
+
+#: extension/prefs.js:409
+msgid "lock pending"
+msgstr "लॉक लंबित"

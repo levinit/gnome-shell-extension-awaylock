@@ -1,0 +1,219 @@
+# AwayLock - GNOME Shell extension
+# Copyright (C) 2026 levinit
+# This file is distributed under the MIT license.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awaylock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-04 08:35+0800\n"
+"PO-Revision-Date: 2026-08-04\n"
+"Last-Translator: levinit <levinit@outlook.com>\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: extension/prefs.js:19
+msgid "Detection"
+msgstr "検出"
+
+#: extension/prefs.js:20
+msgid ""
+"Configure the idle timeout and choose the Bluetooth device that represents "
+"your presence."
+msgstr "アイドルタイムアウトを設定し、あなたの存在を表すBluetoothデバイスを選択します。"
+
+#: extension/prefs.js:23
+msgid "Status"
+msgstr "ステータス"
+
+#: extension/prefs.js:24
+msgid "Live status from the extension runtime."
+msgstr "拡張機能ランタイムからのライブステータス。"
+
+#: extension/prefs.js:28
+msgid "Enable proximity gating"
+msgstr "近接ロックを有効化"
+
+#: extension/prefs.js:29
+msgid "Toggle whether session locks automatically."
+msgstr "セッションを自動的にロックするかどうかを切り替えます。"
+
+#: extension/prefs.js:34
+msgid "Bluetooth Devices"
+msgstr "Bluetooth デバイス"
+
+#: extension/prefs.js:35 extension/prefs.js:336
+msgid "Select one or more trusted devices to monitor."
+msgstr "監視する信頼済みデバイスを1つ以上選択します。"
+
+#: extension/prefs.js:41
+msgid "Reload Bluetooth devices"
+msgstr "Bluetooth デバイスを再読み込み"
+
+#: extension/prefs.js:46
+msgid "Trusted Bluetooth Devices"
+msgstr "信頼済み Bluetooth デバイス"
+
+#: extension/prefs.js:47 extension/prefs.js:216 extension/prefs.js:349
+msgid "None configured"
+msgstr "未設定"
+
+#: extension/prefs.js:57
+msgid "Add address (e.g. 00:11:22:33:44:55)"
+msgstr "アドレスを追加（例: 00:11:22:33:44:55）"
+
+#: extension/prefs.js:62
+msgid "Add MAC address"
+msgstr "MAC アドレスを追加"
+
+#: extension/prefs.js:93
+msgid "Idle timeout (seconds)"
+msgstr "アイドルタイムアウト（秒）"
+
+#: extension/prefs.js:94
+msgid "Default: 300s"
+msgstr "既定値: 300s"
+
+#: extension/prefs.js:108
+msgid "Lock delay after idle (seconds)"
+msgstr "アイドル後のロック遅延（秒）"
+
+#: extension/prefs.js:109
+msgid "Default: 10s"
+msgstr "既定値: 10s"
+
+#: extension/prefs.js:123
+msgid "Arrival RSSI threshold (dBm)"
+msgstr "到着 RSSI しきい値（dBm）"
+
+#: extension/prefs.js:124
+msgid "Default: -70 dBm"
+msgstr "既定値: -70 dBm"
+
+#: extension/prefs.js:138
+msgid "Leave RSSI threshold (dBm)"
+msgstr "離席 RSSI しきい値（dBm）"
+
+#: extension/prefs.js:139
+msgid "Default: -78 dBm"
+msgstr "既定値: -78 dBm"
+
+#: extension/prefs.js:153
+msgid "RSSI smoothing window"
+msgstr "RSSI 平滑化ウィンドウ"
+
+#: extension/prefs.js:154
+msgid "Default: 5"
+msgstr "既定値: 5"
+
+#: extension/prefs.js:168
+msgid "Disconnect grace period (seconds)"
+msgstr "切断猶予期間（秒）"
+
+#: extension/prefs.js:169
+msgid "Default: 12s"
+msgstr "既定値: 12s"
+
+#: extension/prefs.js:183
+msgid "Sample interval (seconds)"
+msgstr "サンプリング間隔（秒）"
+
+#: extension/prefs.js:184
+msgid "Default: 3s"
+msgstr "既定値: 3s"
+
+#: extension/prefs.js:198
+msgid "Reset settings"
+msgstr "設定をリセット"
+
+#: extension/prefs.js:199
+msgid "Restore all options to default values."
+msgstr "すべてのオプションを既定値に戻します。"
+
+#: extension/prefs.js:202
+msgid "Reset to Defaults"
+msgstr "既定値にリセット"
+
+#: extension/prefs.js:243
+msgid "Presence"
+msgstr "プレゼンス"
+
+#: extension/prefs.js:244
+msgid "Device"
+msgstr "デバイス"
+
+#: extension/prefs.js:245
+msgid "RSSI"
+msgstr "RSSI"
+
+#: extension/prefs.js:246
+msgid "Idle"
+msgstr "アイドル"
+
+#: extension/prefs.js:247
+msgid "Last action"
+msgstr "最後の操作"
+
+#: extension/prefs.js:248
+msgid "Updated"
+msgstr "更新済み"
+
+#: extension/prefs.js:278
+msgid "Custom Device"
+msgstr "カスタムデバイス"
+
+#: extension/prefs.js:288
+msgid "No Bluetooth devices found"
+msgstr "Bluetooth デバイスが見つかりません"
+
+#: extension/prefs.js:289
+msgid "Make sure BlueZ is running and devices are paired/visible."
+msgstr "BlueZ が実行中で、デバイスがペアリング済み/表示可能であることを確認してください。"
+
+#: extension/prefs.js:337
+msgid "No Bluetooth devices were returned by BlueZ."
+msgstr "BlueZ は Bluetooth デバイスを返しませんでした。"
+
+#: extension/prefs.js:357
+msgid "Custom"
+msgstr "カスタム"
+
+#: extension/prefs.js:388
+msgid "present"
+msgstr "在席"
+
+#: extension/prefs.js:388
+msgid "away"
+msgstr "離席"
+
+#: extension/prefs.js:395
+msgid "raw"
+msgstr "生"
+
+#: extension/prefs.js:395 extension/prefs.js:397
+msgid "dBm"
+msgstr "dBm"
+
+#: extension/prefs.js:397
+msgid "smoothed"
+msgstr "平滑化済み"
+
+#: extension/prefs.js:399
+msgid "samples"
+msgstr "サンプル"
+
+#: extension/prefs.js:400
+msgid "RSSI not available"
+msgstr "RSSI を取得できません"
+
+#: extension/prefs.js:409
+msgid "s"
+msgstr "秒"
+
+#: extension/prefs.js:409
+msgid "lock pending"
+msgstr "ロック保留中"
